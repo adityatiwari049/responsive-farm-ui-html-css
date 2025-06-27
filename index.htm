@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+         body {
+      font-family: Arial, sans-serif;
+    }
+        .navigationbar{
+            display: flex;
+            align-content: center;
+            justify-content: space-around;
+            background: #8cbaeb;
+            padding: 15px;
+            
+        }
+        .navigationbar h1{
+            margin-right: 80px;
+        }
+        .navigationbar ul{
+            list-style: none;
+           
+             display: flex;
+             gap: 40px;
+             padding: 10px;
+            
+
+        }
+        .navigationbar ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+        .banner{
+            background: #64e813;
+            width: 100%;
+            height: 550px;
+            display: flex;
+            align-content: center;
+            justify-content: space-around;
+
+        }
+        .subbanner{
+            margin-top: 30px;
+           height: 470px;
+           width: 350px;
+           border-radius: 20px;
+            background: #fbf5f5f6;
+            
+            
+        }
+
+        
+
+
+        .banner1{
+            background: #64e813;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+        
+           
+
+        }
+        .banner1 img{
+            width: 1500px;
+            height: 500px;
+             object-fit: cover;
+            border-radius: 15px;
+            margin-top: 10px
+           
+        }
+      .subbanner  img{
+         width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      transition: transform 0.4s ease;
+      }
+    .subbanner h2{
+        color: #337a07;
+        text-align: center;
+        font-size: 30px;
+    }
+         .subbanner p{
+        color: #8394e9;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+        font-style: italic;
+    }
+     .readmore{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+            .subbanner button{
+                text-align: center;
+                justify-content: center;
+                margin: 25px;
+                background: rgb(169, 100, 242);
+                padding: 5px;
+                height: 30px;
+                width: 100px;
+                border-radius: 15px;
+        color: #03062d;
+        
+        font-size: 14px;
+        
+    }
+    .subbanner button:hover{
+       
+        background: #9598f7;
+         
+    }
+    
+    .footer{
+        background: #000;
+        width: 100%;
+    }
+  .subbanner:hover {
+    transition: ease-in-out;
+    transform: scale(1.05) rotate3d(1, 1, 0, 5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.footer {
+  background: #1c1c1c;
+  color: white;
+  padding: 40px 20px 10px;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #64e813;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 13px;
+  color: #999;
+  border-top: 1px solid #444;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+   <div class="navigationbar">
+        <h1>FARMRAM</h1>
+        <ul>
+            <li class="box"><a href="#">Home</a></li>
+             <li class="box"><a href="#">About</a></li>
+              <li class="box"><a href="#">Feature</a></li>
+               <li class="box"><a href="#">Gmail</a></li>
+        </ul>
+   </div>
+    </header>
+    <main>
+        <div class="banner1">
+            <img src="cardimage.png" alt="">
+
+        </div>
+                       <div class="banner">
+                               <div class="subbanner">
+                              <div class="picture">
+                                <img src="weather.jpg" alt="hi "> 
+                              </div>
+                              <div class="contenti">
+                                <h2>DEMO1</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aliquam odio maiores praesentium dicta id ipsum nam saepe, facilis, distinctio dolorum ullam? Repudiandae, necessitatibus! Maxime magnam sunt accusantium eum eligendi..</p>
+                              </div>
+                              <div class="readmore">
+                                <button>Read more</button>
+                                
+
+                              </div>
+                               </div>  
+
+
+
+                            <div class="subbanner">
+                              <div class="picture">
+                                <img src="weather.jpg" alt="hi "> 
+                              </div>
+                              <div class="contenti">
+                                <h2>DEMO2</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aliquam odio maiores praesentium dicta id ipsum nam saepe, facilis, distinctio dolorum ullam? Repudiandae, necessitatibus! Maxime magnam sunt accusantium eum eligendi..</p>
+                              </div>
+                              <div class="readmore">
+                                <button>Read more</button>
+                                
+
+                              </div>
+                               </div> 
+
+                                <div class="subbanner">
+                              <div class="picture">
+                                <img src="weather.jpg" alt="hi "> 
+                              </div>
+                              <div class="contenti">
+                                <h2>DEMO3</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aliquam odio maiores praesentium dicta id ipsum nam saepe, facilis, distinctio dolorum ullam? Repudiandae, necessitatibus! Maxime magnam sunt accusantium eum eligendi..</p>
+                              </div>
+                              <div class="readmore">
+                                <button>Read more</button>
+                                
+
+                              </div>
+                               </div> 
+
+                                <div class="subbanner">
+                              <div class="picture">
+                                <img src="weather.jpg" alt="hi "> 
+                              </div>
+                              <div class="contenti">
+                                <h2>DEMO4</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aliquam odio maiores praesentium dicta id ipsum nam saepe, facilis, distinctio dolorum ullam? Repudiandae, necessitatibus! Maxime magnam sunt accusantium eum eligendi..</p>
+                              </div>
+                              <div class="readmore">
+                                <button>Read more</button>
+                                
+
+                              </div>
+                               </div> 
+                              
+                               
+                              </div>
+                               
+    
+    </main>
+
+   <footer>
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h3>About NETFLIX</h3>
+        <p>
+          A demo clone project showcasing responsive cards, 3D effects, and interactive UI for learning purposes.
+        </p>
+      </div>
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h3>Contact Us</h3>
+        <p>Email: contact@demo.com</p>
+        <p>Phone: +91-9876543210</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Aditya Tiwari | All rights reserved</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
